@@ -37,4 +37,4 @@ RUN chown -R www-data:www-data storage bootstrap/cache
 # Tu peux laisser ça pour le runtime (docker-compose exec) :
 # RUN php artisan key:generate
 
-CMD ["php-fpm"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
