@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('fullname');
             $table->string('sexe');
-            $table->string('etablissement');
-            $table->string('email');
+//            $table->string('etablissement');
+//            $table->string('email');
             $table->string('telephone');
-            $table->integer('nbre-participants');
+//            $table->integer('nbre-participants');
             $table->timestamps();
         });
     }

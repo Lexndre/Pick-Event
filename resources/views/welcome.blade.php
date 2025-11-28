@@ -173,7 +173,7 @@
                         <div class="relative flex flex-col items-start justify-end p-8 md:p-12 min-h-[500px] rounded-xl overflow-hidden bg-cover bg-center" data-alt="Stunning visual for the 'En Kinmin' event, featuring an artistic and cultural atmosphere." style='background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC9HTnb-kDAVDO6xDtDSI9vawwUgBLGgWfg_ETrpmAhmuz4utuedL9RtQAMzy4kTPx6yFsb1SDamXVik8CJWBLtzLU6_VF-gufYnHVqyWlxN8uAb5Q4boBBbZXu_4BYLzPkJSZOl5W0xgCnEgU8IPZda9yqeMyQEHfXdvon9b4n3M3Zjvt-c4OIdD_PZ75__zNoNA2VSl8pvv6onFkYYuUAnLof7floKOYvB_GIsvlxBgz6ZAoy4BH-jYB-r0Ks3lUdFhqvmGJxexqP");'>
                             <div class="flex flex-col gap-4 max-w-xl">
                                 <span class="text-xs font-bold uppercase tracking-widest text-primary">Évènement à la une</span>
-                                <h2 class="text-4xl md:text-5xl font-black text-white">En Kinmin</h2>
+                                <h2 class="text-4xl md:text-5xl font-black text-white">En Kinmin Night Show</h2>
                                 <p class="text-white/90">Plongez au cœur d'une expérience culturelle et artistique unique, où la tradition rencontre la modernité. Un voyage sensoriel et mémorable vous attend.</p>
                                 <button onclick="window.location.href='/event/en-kinmin'" class="flex mt-2 w-fit min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
                                     <span class="truncate">Voir la page de l’évènement</span>

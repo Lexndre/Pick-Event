@@ -151,7 +151,7 @@
                 </section>
                 <section class="rounded-xl bg-surface p-6 sm:p-10 lg:p-16" id="register">
                     <div class="mx-auto max-w-xl text-center">
-                        <h2 class="font-serif-display text-3xl font-bold leading-tight tracking-tight text-on-surface sm:text-4xl">Réservez votre place</h2>
+                        <h2 class="font-serif-display text-3xl font-bold leading-tight tracking-tight text-on-surface sm:text-4xl">Réserve ta place !</h2>
                         <p class="mt-3 text-base font-normal leading-relaxed text-on-surface-secondary">Les places sont limitées. Ne manquez pas cette soirée d'exception et inscrivez-vous dès maintenant.</p>
                     </div>
                     <form action="{{ route('signup') }}" METHOD="POST" class="mx-auto mt-10 max-w-xl space-y-6" id="registrationForm">
@@ -175,40 +175,40 @@
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <label class="block text-sm font-medium text-on-surface" for="etablissement">Établissement</label>
-                            <div class="mt-2">
-                                <input class="block w-full rounded-lg border-border bg-background py-2.5 px-3.5 text-on-surface shadow-sm ring-1 ring-inset ring-border placeholder:text-on-surface-secondary focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6" id="etablissement" name="etablissement" placeholder="Ex: Lycée Classique d'Abidjan" type="text"/>
-                            </div>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-on-surface" for="email">Adresse email</label>
-                            <div class="mt-2">
-                                <input autocomplete="email" class="block w-full rounded-lg border-border bg-background py-2.5 px-3.5 text-on-surface shadow-sm ring-1 ring-inset ring-border placeholder:text-on-surface-secondary focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6" id="email" name="email" placeholder="vous@exemple.com" type="email"/>
-                            </div>
-                        </div>
+{{--                        <div>--}}
+{{--                            <label class="block text-sm font-medium text-on-surface" for="etablissement">Établissement</label>--}}
+{{--                            <div class="mt-2">--}}
+{{--                                <input class="block w-full rounded-lg border-border bg-background py-2.5 px-3.5 text-on-surface shadow-sm ring-1 ring-inset ring-border placeholder:text-on-surface-secondary focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6" id="etablissement" name="etablissement" placeholder="Ex: Lycée Classique d'Abidjan" type="text"/>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div>--}}
+{{--                            <label class="block text-sm font-medium text-on-surface" for="email">Adresse email</label>--}}
+{{--                            <div class="mt-2">--}}
+{{--                                <input autocomplete="email" class="block w-full rounded-lg border-border bg-background py-2.5 px-3.5 text-on-surface shadow-sm ring-1 ring-inset ring-border placeholder:text-on-surface-secondary focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6" id="email" name="email" placeholder="vous@exemple.com" type="email"/>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div>
                             <label class="block text-sm font-medium text-on-surface" for="phone-number">Numéro de téléphone</label>
                             <div class="mt-2">
                                 <input autocomplete="tel" class="block w-full rounded-lg border-border bg-background py-2.5 px-3.5 text-on-surface shadow-sm ring-1 ring-inset ring-border placeholder:text-on-surface-secondary focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6" id="telephone" name="telephone" placeholder="+225 01 02 03 04 05" type="tel"/>
                             </div>
                         </div>
-                        <div>
-                            <label class="block text-sm font-medium text-on-surface" for="participants">Nombre de participants</label>
-                            <div class="mt-2">
-                                <select class="block w-full rounded-lg border-border bg-background py-2.5 px-3.5 text-on-surface shadow-sm ring-1 ring-inset ring-border focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6" id="nbre-participants" name="nbre-participants">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                </select>
-                            </div>
-                        </div>
+{{--                        <div>--}}
+{{--                            <label class="block text-sm font-medium text-on-surface" for="participants">Nombre de participants</label>--}}
+{{--                            <div class="mt-2">--}}
+{{--                                <select class="block w-full rounded-lg border-border bg-background py-2.5 px-3.5 text-on-surface shadow-sm ring-1 ring-inset ring-border focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6" id="nbre-participants" name="nbre-participants">--}}
+{{--                                    <option value="1">1</option>--}}
+{{--                                    <option value="2">2</option>--}}
+{{--                                    <option value="3">3</option>--}}
+{{--                                    <option value="4">4</option>--}}
+{{--                                    <option value="5">5</option>--}}
+{{--                                </select>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div>
                             <button class="flex w-full cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] transition-transform hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary" id="submitButton" type="submit">Valider mon inscription</button>
                         </div>
-                        <p class="text-center text-sm text-on-surface-secondary">Un e-mail de confirmation vous sera envoyé une fois l'inscription validée.</p>
+{{--                        <p class="text-center text-sm text-on-surface-secondary">Un e-mail de confirmation vous sera envoyé une fois l'inscription validée.</p>--}}
                     </form>
                 </section>
             </main>
@@ -251,13 +251,13 @@
                 <span class="material-symbols-outlined text-4xl">check_circle</span>
             </div>
             <h3 class="mt-5 text-2xl font-bold text-on-surface">Inscription réussie !</h3>
-            <p class="mt-2 text-base text-on-surface-secondary">Merci de vous être inscrit à "En Kinmin". Un e-mail de confirmation contenant tous les détails a été envoyé à votre adresse. Nous avons hâte de vous voir !</p>
+            <p class="mt-2 text-base text-on-surface-secondary">Merci de vous être inscrit à "En Kinmin". Vous recevrez votre reçu numérique sur WhatsApp</p>
             <button class="mt-8 flex w-full cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] transition-transform hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary" id="closeModalButton">Fermer</button>
         </div>
     </div>
 </div>
 <script>
-    const genderSelect = document.getElementById('gender');
+    const genderSelect = document.getElementById('sexe');
     const submitButton = document.getElementById('submitButton');
     const registrationForm = document.getElementById('registrationForm');
     const confirmationModal = document.getElementById('confirmationModal');
@@ -270,16 +270,42 @@
             submitButton.textContent = 'Valider mon inscription';
         }
     });
+
     // Show modal on form submission
-    registrationForm.addEventListener('submit', (e) => {
+    registrationForm.addEventListener('submit', async (e) => {
         e.preventDefault(); // Prevent actual form submission
-        confirmationModal.classList.remove('hidden');
-        confirmationModal.classList.add('flex');
+        const formData = new FormData(registrationForm);
+
+        try {
+            const response = await  fetch(registrationForm.action, {
+                method: "POST",
+                body: formData,
+                headers: {
+                    "X-Requested-With": "XMLHttpRequest"
+                }
+            });
+
+            if (response.ok) {
+                // Afficher le modal
+                confirmationModal.classList.remove('hidden');
+                confirmationModal.classList.add('flex');
+
+                // Réinitialiser le formulaire
+                registrationForm.reset();
+            } else {
+                console.log("Erreur serveur");
+            }
+
+        } catch (error) {
+            console.error("Erreur AJAX :", error);
+        }
     });
+
     // Hide modal when close button is clicked
     closeModalButton.addEventListener('click', () => {
         confirmationModal.classList.add('hidden');
         confirmationModal.classList.remove('flex');
+        registrationForm.reset();
     });
     // Hide modal when clicking outside of it
     confirmationModal.addEventListener('click', (e) => {
